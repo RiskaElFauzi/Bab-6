@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<h2>Finding HTML Elements by Query Se;ector</h2>
+
+	<p id="intro">Hello Word!</p>
+
+	<p class="intro">The Dom is very useful</p>
+	<p class="intro">This example demonstrates the <b>querySelectorAll</b> method.</p>
+	<p id="demo"></p>
+
+	<script>
+		var x = document.dpcument.querySelectorAll("p.intro");
+		document.getElementById("demo").innerHTML - 'The first paragraph (index 0) with class="intro": ' + x[0].innerHTML;
+	</script>
+	
+</body>
+</html>
